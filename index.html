@@ -4,18 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- Подключение шрифтов Googl -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
     <title>My CV</title>
 </head>
 <body>
     <!-- Main conteiner -->
-    <main>
+    <main class="main-container">
 
         <!-- Right side -->
-        <div>
+        <div class="right-side">
 
             <!-- About me section -->
-            <div>
-                <h3>Front-End Developer</h3>
+            <div class="about-me-section">
+                <h3 class="about-me-profession">Front-End Developer</h3>
                 <h1>Mark Tven</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -26,10 +33,10 @@
             </div>
 
             <!-- My projects section -->
-            <div>
+            <div class="my-project-section">
                 <h3>Projects</h3>
                 <ol>
-                    <li>
+                    <li class="projects-item">
                         <a href="https://hellenglish.goit.global/">https://hellenglish.goit.global/</a>
                         <span>..........................</span>
                         <span>[ HTML5, CSS3 ]</span> 
@@ -48,7 +55,7 @@
             </div>
 
             <!-- My Work Experience -->
-            <div>
+            <div class="my-work-experience-section">
                 <h3>Work Experience</h3>
 
                 <!-- Company 3 -->
@@ -86,8 +93,8 @@
                 </ul>
             </div>
 
-            <!-- Education -->
-            <div>
+            <!--My Education -->
+            <div class="my-education-section">
                 <h3>
                     Education
                 </h3>
@@ -100,7 +107,7 @@
 
         <!-- Left side - sidebar -->
 
-        <aside>
+        <aside class="left-side-bar">
             <img src="img/photo_CV.jpg" alt="My photo">
 
             <!-- Contacts saction -->
