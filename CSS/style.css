@@ -1,23 +1,14 @@
 body{
     background: #F5F7FA;
     font-family: 'Montserrat', sans-serif;
-    
-
 }
-
-/* li{
-    background: white;
-    color: #595959;
-    font-size: 14px;
-    line-height: 24px;
-} */
 
 .main-container{
     width: 1200px;
     margin: 40px auto;
     display: flex;
-flex-direction: row-reverse;
-background: #ffffff;
+    flex-direction: row;
+    background: #ffffff;
 }
 
 .about-me-profession{
@@ -26,29 +17,27 @@ background: #ffffff;
     color: black;
 }
 
-.right-side {
+/* .right-side {
     
-}
+} */
 
 .about-me-section{
-background: rgb(236, 236, 177);
-display: flex;
-flex-direction: column;
-
+    background: rgb(236, 236, 177);
+    display: flex;
+    flex-direction: column;
 }
 
 .my-project-section{
-background: rgb(122, 122, 233);
+    background: rgb(122, 122, 233);
 }
 
 .my-work-experience-section{
-background: rgb(173, 108, 233);
+    background: rgb(173, 108, 233);
 }
 
 .my-education-section{
-background: rgb(185, 231, 116);
+    background: rgb(185, 231, 116);
 }
-
 
 .left-side-bar{
     background: #1E2939;
