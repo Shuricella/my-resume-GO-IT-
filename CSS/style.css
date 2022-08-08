@@ -7,7 +7,8 @@ body{
         margin: 40px auto;
         display: flex;
         flex-direction: row;
-        background: #ffffff;}
+        background: #ffffff;
+        box-shadow:0 0 20px #555;}
 
 
         /* Left - sidebar */
@@ -75,24 +76,144 @@ body{
         .about-me-section{
             background: rgb(236, 236, 177);
             display: flex;
-            flex-direction: column;}
+            flex-direction: column;
+            width: 400px;}
 
         .about-me-profession{
-            font-size: 14px;
+            font-style: normal;
             font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            margin-bottom: 20px;
             color: black;}
+
+        .about-me-name{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 45px;
+            line-height: 55px;
+            padding-bottom: 25px;
+            color: black;
+            margin: 0px;}
+
+        .about-me-text{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            margin: 0px;
+            color:#595959;}
 
 
 
         .my-project-section{
-            background: rgb(122, 122, 233);}
+            background: rgb(122, 122, 233);
+            margin-top: 40px;}
+
+        .title-text-naz{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 27px;
+            color: #000000;
+            margin-bottom: 10px;
+        }
+
+        .my-project-list{
+            padding: 0px;
+            padding-left: 17px;
+        }
+
+
+        
+        .my-project-item{
+            color: #000000;
+            font-weight: bold;
+        }
+
+        .my-project-text{
+            font-style: normal;
+            font-size: 14px;
+            line-height: 24px;
+            color: #595959;
+            margin-left: 7px;
+        }
+
+        .my-project-link{
+            font-style: normal;
+            font-size: 14px;
+            line-height: 24px;
+            color: #595959;
+        }
+        .my-project-bracket{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 24px;
+            color: #000000;
+        }
 
 
 
         .my-work-experience-section{
-            background: rgb(173, 108, 233);}
+            /* background: rgb(173, 108, 233); */
+            margin-top: 50px;}
+
+        .company-color{
+            color: #FB6D3A;
+        }
+
+        .position-company{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+            margin-bottom: 10px;
+        }
+
+        .date-work{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 15px;
+            color: #A8A8A8;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .work-devider{
+            color: #000000;            
+        }
+
+        .my-work-experience-duties{
+            padding-left: 17px;
+        }
+
+        .my-work-duty{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            color: #595959;
+        }
+
+        .my-work-experience-company-block{
+            margin-bottom: 15px;
+        }
 
 
 
         .my-education-section{
             background: rgb(185, 231, 116);}
+
+
+
+
+        
+
+        .right-column{
+            padding-top: 100px;
+            padding-bottom: 100px;
+            padding-left: 90px;
+            padding-right: 90px;
+        }
