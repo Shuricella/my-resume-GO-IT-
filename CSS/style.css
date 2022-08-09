@@ -8,7 +8,8 @@ body{
         display: flex;
         flex-direction: row;
         background: #ffffff;
-        box-shadow:0 0 20px #555;}
+        box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    }
 
 
         /* Left - sidebar */
@@ -73,8 +74,14 @@ body{
 
 
         /* Right column */
+        .right-column{
+            padding-top: 100px;
+            padding-bottom: 100px;
+            padding-left: 90px;
+            padding-right: 90px;}
+
         .about-me-section{
-            background: rgb(236, 236, 177);
+            /* background: rgb(236, 236, 177); */
             display: flex;
             flex-direction: column;
             width: 400px;}
@@ -84,7 +91,7 @@ body{
             font-weight: 700;
             font-size: 14px;
             line-height: 17px;
-            margin-bottom: 20px;
+            margin: 0px 0px 20px 0px;
             color: black;}
 
         .about-me-name{
@@ -104,10 +111,8 @@ body{
             margin: 0px;
             color:#595959;}
 
-
-
         .my-project-section{
-            background: rgb(122, 122, 233);
+            /* background: rgb(122, 122, 233); */
             margin-top: 40px;}
 
         .title-text-naz{
@@ -116,60 +121,49 @@ body{
             font-size: 22px;
             line-height: 27px;
             color: #000000;
-            margin-bottom: 10px;
-        }
+            margin: 0px 0px 12px 0px;}
 
         .my-project-list{
             padding: 0px;
-            padding-left: 17px;
-        }
-
-
+            padding-left: 17px;}
         
         .my-project-item{
             color: #000000;
-            font-weight: bold;
-        }
+            font-weight: bold;}
 
         .my-project-text{
             font-style: normal;
             font-size: 14px;
             line-height: 24px;
             color: #595959;
-            margin-left: 7px;
-        }
+            margin-left: 7px;}
 
         .my-project-link{
             font-style: normal;
             font-size: 14px;
             line-height: 24px;
-            color: #595959;
-        }
+            color: #595959;}
+
         .my-project-bracket{
             font-style: normal;
             font-weight: 700;
             font-size: 14px;
             line-height: 24px;
-            color: #000000;
-        }
-
-
+            color: #000000;}
 
         .my-work-experience-section{
             /* background: rgb(173, 108, 233); */
             margin-top: 50px;}
 
         .company-color{
-            color: #FB6D3A;
-        }
+            color: #FB6D3A;}
 
         .position-company{
             font-style: normal;
             font-weight: 700;
             font-size: 16px;
             line-height: 20px;
-            margin-bottom: 10px;
-        }
+            margin: 0px 0px 10px 0px;}
 
         .date-work{
             font-style: normal;
@@ -178,42 +172,38 @@ body{
             line-height: 15px;
             color: #A8A8A8;
             margin-top: 10px;
-            margin-bottom: 10px;
-        }
+            margin: 0px 0px 10px 0px;}
 
         .work-devider{
-            color: #000000;            
-        }
+            color: #000000;}
 
         .my-work-experience-duties{
-            padding-left: 17px;
-        }
+            padding:0px 0px 0px 17px;
+            margin: 0px 0px 15px 0px;}
 
         .my-work-duty{
             font-style: normal;
             font-weight: 400;
             font-size: 14px;
             line-height: 24px;
-            color: #595959;
-        }
+            color: #595959;}
 
         .my-work-experience-company-block{
-            margin-bottom: 15px;
-        }
-
-
+            margin-bottom: 15px;}
 
         .my-education-section{
-            background: rgb(185, 231, 116);}
+            /* background: rgb(185, 231, 116); */
+            margin-top: 50px;}
 
+        .company-university{
+            margin: 0px 0px 12px 0px;}
 
-
+        .my-education-position-company{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            color: #000000;
+            margin: 0px 0px 12px 0px;}
 
         
-
-        .right-column{
-            padding-top: 100px;
-            padding-bottom: 100px;
-            padding-left: 90px;
-            padding-right: 90px;
-        }
