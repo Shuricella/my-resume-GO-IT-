@@ -18,6 +18,10 @@ body{
             width: 370px;
             padding-top: 40px;}
 
+        .img-photo{
+            border-radius: 5%;
+        }
+
         .contacts-section{
             margin-top: 50px;
             margin-left: 40px;}
